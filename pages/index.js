@@ -25,7 +25,9 @@ export default function Home() {
                   through years of study and practicing the art of writing clean code on a 
                   vast variety of platforms to provide solutions around the world.</p>
                   {/**TODO: Add icons for instagram, twitter, Linkedin and github */}
-                <a href="/contact">Hire Me</a>
+                <Link href="/contact">
+                  <a>Hire Me</a>                
+                </Link>
               </div>
             </div>
           </div>
@@ -73,7 +75,7 @@ export default function Home() {
                       <div className='card-body'>
                         <h4>{name}</h4>
                         <p>{description}</p>
-                        <a href={link} target="_blank">Try it!</a>    
+                        <a href={link} target="_blank" rel="noreferrer">Try it!</a>    
                       </div>
                     </div>
                   </div>
