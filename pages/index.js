@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import Image from 'next/image'
+import Link from 'next/link'
 import styles from '../styles/Home.module.css'
 import Layout from '../components/Layout'
 import { skills, projects } from '../profile'
@@ -8,7 +9,7 @@ export default function Home() {
   return (
     <Layout>
       <header className='row'>
-        <div className='col-md-10'>
+        <div className='col-md-12'>
           <div className='card card-body bg-secondary text-light'>
             <div className='row'>
               <div className='col-md-4'>
@@ -23,6 +24,7 @@ export default function Home() {
                   so you can see and test all the functionalities I have implemented 
                   through years of study and practicing the art of writing clean code on a 
                   vast variety of platforms to provide solutions around the world.</p>
+                  {/**TODO: Add icons for instagram, twitter, Linkedin and github */}
                 <a href="/contact">Hire Me</a>
               </div>
             </div>
@@ -35,6 +37,7 @@ export default function Home() {
           <div className='card bg-light'>
             <div className='card-body'>
               <h1>Skills</h1>
+              {/** TODO: Add github badges */}
               {
                 skills.map(({skill,percentage},i) => (
                   <div className='py-3' key={i}>
@@ -54,33 +57,23 @@ export default function Home() {
           </div>
         </div>
         <div className='col-md-8'>
-          <div className='card bg-light'>
-            <div className='card-body'>
-              <h1>Experience</h1>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      {/** Portfolio */}
-      <div className='row'>
-        <div className='col-md-12'>
           <div className='card card-body bg-dark'>
+            <div className='col-md-8 text-center'>
+              <h1 className=' text-light'>Portfolio</h1>
+            </div>
             <div className='row'>
-              <div className='col-md-12'>
-                <h1 className='text-center text-light'>Portfolio</h1>
-              </div>
+              {/** Add github link */}
               {
-                projects.map(({name, description, image}, i) => (
+                projects.map(({name, description, image, link}, i) => (
                   <div className='col-md-4 p-2' key={i}>
                     <div className='card h-100'>
                       <div className='overflow'>
-                        <Image className='card-img-top' src={`/${image}`} width={300} height={300} alt='' />
+                        <Image className='card-img-top' src={`/${image}`} width={265} height={450} alt='' />
                       </div>                      
                       <div className='card-body'>
-                        <h3>{name}</h3>
+                        <h4>{name}</h4>
                         <p>{description}</p>
-                        <a href='#'>Know more</a>
+                        <a href={link} target="_blank">Try it!</a>    
                       </div>
                     </div>
                   </div>
@@ -88,6 +81,12 @@ export default function Home() {
               }
             </div>
           </div>
+        </div>
+      </div>
+
+      {/** Portfolio */}
+      <div className='row'>
+        <div className='col-md-8'>
         </div>
       </div>
     </Layout>
