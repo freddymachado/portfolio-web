@@ -14,7 +14,7 @@ export default function Home() {
             <div className='row'>
               <div className='col-md-4'>
                 {/**TODO: Take a good picture, centrated, well dressed and horizontal with black background */}
-                <Image src='/freddy.jpg' width={300} height={400} 
+                <Image src='/fred-gris.jpg' width={400} height={300} 
                 alt='Picture of Freddy Machado Developer' className='img-fluid'/>
               </div>
               <div className='col-md-8'>
