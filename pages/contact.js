@@ -4,14 +4,14 @@ import { useForm, ValidationError } from '@formspree/react';
 function ContactForm() {
   const [state, handleSubmit] = useForm("mknyegyz");
   if (state.succeeded) {
-      return <p>Thanks, i'll be in touch with you ASAP!</p>;
+      return <p>Thanks, i will be in touch with you ASAP!</p>;
   }
   return (
     <><form onSubmit={handleSubmit}>
       <div className="form-group">
         <label htmlFor="email">Email address</label>
         <input type="email" className="form-control" id="email" name="email" aria-describedby="emailHelp" placeholder="Email"/>
-          <small id="emailHelp" className="form-text text-muted">I'll never share your email with anyone else.</small>
+          <small id="emailHelp" className="form-text text-muted">I will never share your email with anyone else.</small>
         </div>
         <ValidationError
           prefix="Email"

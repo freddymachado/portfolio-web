@@ -25,7 +25,7 @@ export default function Home() {
                   vast variety of platforms to provide solutions around the world.</p>
                   {/**TODO: Add icon for instagram*/}
                 <Link href="/contact"  className="btn btn-secondary mb-2">
-                  <button type="button" class="btn btn-info px-2">Hire me!</button>               
+                  <button type="button" className="btn btn-info px-2">Hire me!</button>               
                 </Link>
                 <a href="https://www.github.com/freddymachado" target="_blank" rel="noreferrer" className='px-2'>
                   <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/github.svg" width="32" height="32" />
