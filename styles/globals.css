@@ -9,6 +9,8 @@ body {
 .overflow{
   height: 50%;
   overflow: hidden;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .overflow .card-img-top{
