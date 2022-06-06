@@ -13,7 +13,6 @@ export default function Home() {
           <div className='card card-body bg-secondary text-light'>
             <div className='row'>
               <div className='col-md-4'>
-                {/**TODO: Take a good picture, centrated, well dressed and horizontal with black background */}
                 <Image src='/fred-gris.jpg' width={400} height={300} 
                 alt='Picture of Freddy Machado Developer' className='img-fluid'/>
               </div>
@@ -24,9 +23,9 @@ export default function Home() {
                   so you can see and test all the functionalities I have implemented 
                   through years of study and practicing the art of writing clean code on a 
                   vast variety of platforms to provide solutions around the world.</p>
-                  {/**TODO: Add icons for instagram, twitter, Linkedin and github */}
-                <Link href="/contact" >
-                  <a className='px-2'>Hire Me</a>                
+                  {/**TODO: Add icon for instagram*/}
+                <Link href="/contact"  className="btn btn-secondary mb-2">
+                  <button type="button" class="btn btn-info px-2">Hire me!</button>               
                 </Link>
                 <a href="https://www.github.com/freddymachado" target="_blank" rel="noreferrer" className='px-2'>
                   <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/github.svg" width="32" height="32" />
@@ -76,7 +75,6 @@ export default function Home() {
               <h1 className=' text-light'>Portfolio</h1>
             </div>
             <div className='row'>
-              {/** Add github link */}
               {
                 projects.map(({name, description, image, link, repo}, i) => (
                   <div className='col-md-4 p-2' key={i}>

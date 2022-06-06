@@ -1,6 +1,8 @@
 import Link from 'next/link'
 import Image from 'next/image'
 
+const activeClass = (route) => { return location.pathname === route ? "nav-link active" : "nav-link" }
+
 const Navbar = () => (
 <nav 
 className="navbar navbar-expand-lg navbar-dark bg-dark">
@@ -15,17 +17,17 @@ className="navbar navbar-expand-lg navbar-dark bg-dark">
       <ul className="navbar-nav">
         <li className="nav-item">
             <Link href="/">
-                <a className="nav-link active" aria-current="page">Inicio</a>
+                <a className={activeClass("/")} aria-current="page">Inicio</a>
             </Link>
         </li>
         <li className="nav-item">
             <Link href="/projects">
-                <a className="nav-link">Projects</a>
+                <a className={activeClass("/projects")}>Projects</a>
             </Link>
         </li>
         <li className="nav-item">
             <Link href="/contact">
-                <a className="nav-link" >Contact</a>
+                <a className={activeClass("/contact")} >Contact</a>
             </Link>
         </li>
       </ul>
