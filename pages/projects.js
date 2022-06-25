@@ -1,9 +1,14 @@
 import Layout from '../components/Layout'
 import Image from 'next/image'
+import Head from "next/head";
 import { skills, projects } from '../profile'
 
 const Projects = () => (
     <Layout>
+    <Head>
+      <title>Freddy Machado&apos;s Projects</title>
+      <meta name="description" content="Freddy Machado&apos;s Projects"/>
+    </Head>
       <div className='col-md-12'>
           <div className='card card-body bg-dark'>
             <div className='col-md-12 text-center'>
