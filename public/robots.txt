@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://portfolio-web-blue-psi.vercel.app/
+
+# Sitemaps
+Sitemap: https://portfolio-web-blue-psi.vercel.app/sitemap.xml
