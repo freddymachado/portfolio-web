@@ -1,5 +1,6 @@
 import Layout from '../components/Layout'
 import { useForm, ValidationError } from '@formspree/react';
+import Head from "next/head";
 
 function ContactForm() {
   const [state, handleSubmit] = useForm("mknyegyz");
@@ -32,6 +33,10 @@ function ContactForm() {
 }
 const Contact = () => (
     <Layout footer={false}>
+    <Head>
+      <title>Freddy Machado&apos;s Contact form</title>
+      <meta name="description" content="Freddy Machado&apos;s contact form."/>
+    </Head>
       <h1>Contact</h1>
       
     <p align="left"> 

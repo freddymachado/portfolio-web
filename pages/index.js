@@ -8,6 +8,10 @@ import { skills, projects } from '../profile'
 export default function Home() {
   return (
     <Layout>
+    <Head>
+      <title>Freddy Machado&apos;s Portfolio</title>
+      <meta name="description" content="Freddy Machado&apos;s Portfolio"/>
+    </Head>
       <header className='row'>
         <div className='col-md-12'>
           <div className='card card-body bg-secondary text-light'>
