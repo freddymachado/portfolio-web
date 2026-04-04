@@ -1,9 +1,9 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import Link from 'next/link'
-import styles from '../styles/Home.module.css'
-import Layout from '../components/Layout'
-import { skills, projects } from '../profile'
+import styles from '../../styles/Home.module.css'
+import Layout from '../../components/Layout'
+import { skills, projects } from '../../profile'
 
 export default function Home() {
   return (

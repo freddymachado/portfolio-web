@@ -1,4 +1,4 @@
-import Layout from '../components/Layout'
+import Layout from '../../components/Layout'
 import { useForm, ValidationError } from '@formspree/react';
 import Head from "next/head";
 

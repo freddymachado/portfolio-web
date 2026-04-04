@@ -12,8 +12,8 @@ const Navbar = () => {
     <nav 
     className="navbar navbar-expand navbar-dark bg-dark">
       <div className="container">
-        <Link href="/">
-          <a className="navbar-brand">Portfolio</a>    
+        <Link href="/" className="navbar-brand">
+          Portfolio    
         </Link>
         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" 
         data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" 
@@ -23,18 +23,18 @@ const Navbar = () => {
         <div className="collapse navbar-collapse" id="navbarNav">
           <ul className="navbar-nav me-auto mb-2 mb-lg-0">
             <li className="nav-item">
-                <Link href="/">
-                    <a className={activeClass("/")} aria-current="page">Inicio</a>
+                <Link href="/" className={activeClass("/")} aria-current="page">
+                    Inicio
                 </Link>
             </li>
             <li className="nav-item">
-                <Link href="/projects">
-                    <a className={activeClass("/projects")}>Projects</a>
+                <Link href="/projects" className={activeClass("/projects")}>
+                    Projects
                 </Link>
             </li>
             <li className="nav-item">
-                <Link href="/contact">
-                    <a className={activeClass("/contact")} >Contact</a>
+                <Link href="/contact" className={activeClass("/contact")}>
+                    Contact
                 </Link>
             </li>
           </ul>
