@@ -90,7 +90,7 @@ const Navbar = ({ terminalMode, setTerminalMode, uiType, setUiType }: Props) => 
               </button>
             )}
 
-            <div className="h-4 w-px bg-white/10 mx-1 hidden sm:block" /> */}
+            <div className="h-4 w-px bg-white/10 mx-1 hidden sm:block" /> 
 
             <a
               href="https://github.com/aj-seven/aj-seven.me"
@@ -104,7 +104,7 @@ const Navbar = ({ terminalMode, setTerminalMode, uiType, setUiType }: Props) => 
                   {stars}
                 </span>
               )}
-            </a>
+            </a>*/}
 
             <button
               onClick={() => setTerminalMode(!terminalMode)}
