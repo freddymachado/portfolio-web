@@ -9,18 +9,19 @@
 
 ## Development
 
-Clone the repository, install the dependencies and start the application
+Clone the repository, install dependencies with `pnpm`, and start the Vite dev server.
 
 ```bash
 git clone git@github.com:Aj-Seven/aj-seven.me.git
 cd ajseven.me
-npm install
-npm start
+pnpm install
+pnpm dev
 
-# For Build and serving static pages
-npm run build
-npm -g install serve
-serve build
+# Build for production
+pnpm build
+
+# Preview the production build locally
+pnpm preview
 ```
 
 **Note:** use the `depth` parameter to reduce the clone size and speed up the clone.
