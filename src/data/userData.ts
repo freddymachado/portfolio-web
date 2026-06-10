@@ -12,6 +12,7 @@ export const personalInfo = {
   role: "Full Stack Developer",
   roles: [
     "Full Stack Developer",
+    "Human in the Loop",
     "Tech Explorer",
     "Mobile Dev",
     "Linux Enthusiast",
@@ -71,18 +72,19 @@ export const skills = [
 ];
 
 export const facts = [
-  "Student",
-  "Passion for tech",
   "Learner",
+  "Human in the Loop",
+  "Passion for tech",
   "Linux Enthusiast",
   "Full Stack Developer",
+  "Student",
 ];
 
 export const timeline = [
   {
     year: "2026",
     detail:
-      "Focused on mastering advanced tools and preparing for new professional opportunities.",
+      "Focused on mastering advanced tools for Agents Orchestration and preparing for new professional opportunities.",
     more:
       "Actively building production-level projects and seeking roles in full-stack development and AI-driven systems.",
   },
