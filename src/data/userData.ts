@@ -162,7 +162,7 @@ export const projectData = [
     name: "Financio",
     description: "Track your expenses with AI powered OCR.",
     tech: ["NextJS", "React", "TypeScript", "TailwindCSS", "MongoDB"],
-    live: "https://done-today.vercel.app",
+    live: "https://financio-eight.vercel.app/dashboard",
     github: "https://github.com/freddymachado/financio",
     category: "Web",
   },
@@ -176,52 +176,21 @@ export const projectData = [
       "CSS",
       "Ollama",
     ],
-    live: "https://landing-page-ajseven.vercel.app",
+    live: "https://financio-eight.vercel.app/dashboard",
     github: "https://github.com/freddymachado/ragmin",
     category: "Web",
   },
   {
-    name: "PostalMapper",
+    name: "Services Webpage",
     description:
-      "A digital address card generator based on postal code with QR support, export options. Built with React & Tailwind.",
-    tech: ["React", "TailwindCSS", "QRCode"],
-    live: "https://postal-mapper.vercel.app",
-    github: "https://github.com/aj-seven/postal-mapper",
-    category: "Web",
-  },
-  {
-    name: "Sketchify",
-    description: "Convert Images to sketches with Adjustable effects.",
-    tech: ["React", "TailwindCSS", "Canvas"],
-    live: "https://sketchify-app.vercel.app",
-    github: "https://github.com/aj-seven/sketchify",
-    category: "Web",
-  },
-  {
-    name: "Task Quest",
-    description: "A simple yet modern task tracker built for productivity.",
+      "Blog. Built with React & Tailwind.",
     tech: ["React", "TailwindCSS"],
-    live: "https://task-quest.pages.dev",
-    github: "https://github.com/aj-seven/task-quest",
+    live: "https://service-webpage.vercel.app/",
+    github: "https://github.com/freddymachado/service-webpage",
     category: "Web",
-  },
-  {
-    name: "Color Tailor",
-    description: "A color palette generator built with React & Tailwind.",
-    tech: ["React", "TailwindCSS", "chroma-js"],
-    live: "https://color-tailor.vercel.app",
-    github: "https://github.com/aj-seven/color-tailor",
-    category: "Web",
-  },
-  {
-    name: "Android-Sysinfo",
-    description: "A tool that efficiently displays Android system details.",
-    tech: ["Linux", "Termux", "Android"],
-    github: "https://github.com/aj-seven/Android-Sysinfo",
-    category: "CLI",
-  },
+  }
 ];
 
 export const resume = {
-  "full-stack-developer": "https://rxresu.me/freddymachado/full-stack-developer",
+  "full-stack-developer": "https://rxresu.me/freddyantoniomachado/forward-deployed-dev",
 };
