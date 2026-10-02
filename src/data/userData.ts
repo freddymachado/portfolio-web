@@ -19,7 +19,7 @@ export const personalInfo = {
   ],
   college: "Simón Bolívar University",
   collegeUrl: "http://www.usb.ve/",
-  avatarUrl: "/assets/yo.jpg",
+  avatarUrl: "/assets/yo.jpeg",
   status: "Available for work",
   aboutText: "Full-stack engineer specializing in scalable systems and AI-driven solutions. Crafting high-performance digital products with precision and purpose.",
   aboutText1: "I’m Freddy Machado, based in Caracas, Venezuela. I studied Electronics Engineering from ",
